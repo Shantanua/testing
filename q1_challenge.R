@@ -12,7 +12,7 @@ for (i in 1:T)
 {
 max = tail(sort(stream[0:i]), N);
 last = tail(stream[0:i], N);
-M[i] = prod(max);
+M[i] = prod(max);    
 L[i] = prod(last);
 }
 
