@@ -16,7 +16,7 @@ M[i] = prod(max);
 L[i] = prod(last);
 }
 
-seql = M-L;
+seql = M-L;     #pagal tai 2#
 
 print(paste0("Mean is: ", mean(seql)));
 print(paste0("Standard Deviation is: ", sd(seql)));
